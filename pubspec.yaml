@@ -1,0 +1,48 @@
+name: quran3
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  animated_text_kit: ^4.2.3
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_launcher_icons: ^0.14.3
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  google_fonts: ^6.2.1
+  mini_music_visualizer: ^1.1.4
+  video_player: ^2.9.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imgs/
+    - assets/video/Elanbeyaa/
+    - assets/video/Elforqan/
+    - assets/video/Elheg/
+    - assets/video/Elkahf/
+    - assets/video/Elmoamenon/
+    - assets/video/Elnaml/
+    - assets/video/Elnour/
+    - assets/video/Elqasas/
+    - assets/video/Elshoara/
+    - assets/video/Mariam/
+    - assets/video/Taha/
+   
+flutter_icons:
+  ios: true
+  android: false  # يمكنك تغيير إلى true إذا أردت أيضًا توليد أيقونات Android
+  image_path: "assets/icons/logoapp.png"  # تأكد أن الصورة في هذا المسار
